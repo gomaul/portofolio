@@ -7,6 +7,8 @@ import Hero from "@/components/Hero";
 import { RecentProject } from "@/components/RecentProject";
 import { FloatingNav } from "@/components/ui/FlotingNav";
 import { navItems } from "@/data";
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 
 export default function Home() {
@@ -23,6 +25,7 @@ export default function Home() {
         <Experience />
         <Approach />
         <Footer />
+        <SpeedInsights />
         </div>
     </main>
   );
